@@ -14,6 +14,7 @@ https://hadoop.apache.org/docs/r2.7.3/hadoop-yarn/hadoop-yarn-site/ResourceManag
 
 - 源码里对这两个值的注释
 ```java
+org.apache.hadoop.yarn.api.records.ApplicationResourceUsageReport
   /**
    * Get the aggregated amount of memory (in megabytes) the application has
    * allocated times the number of seconds the application has been running.
